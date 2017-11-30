@@ -14,6 +14,7 @@
 		FAF7ACAC1FD0885400BE6FFE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAF7ACAA1FD0885400BE6FFE /* LaunchScreen.storyboard */; };
 		FAF7ACB71FD0885400BE6FFE /* MyToDoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF7ACB61FD0885400BE6FFE /* MyToDoTests.swift */; };
 		FAF7ACC21FD0885400BE6FFE /* MyToDoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF7ACC11FD0885400BE6FFE /* MyToDoUITests.swift */; };
+		FAF7ACD01FD08D9000BE6FFE /* MyToDo.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF7ACCF1FD08D9000BE6FFE /* MyToDo.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		FAF7ACBD1FD0885400BE6FFE /* MyToDoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyToDoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAF7ACC11FD0885400BE6FFE /* MyToDoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyToDoUITests.swift; sourceTree = "<group>"; };
 		FAF7ACC31FD0885400BE6FFE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FAF7ACCF1FD08D9000BE6FFE /* MyToDo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyToDo.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				FAF7ACA81FD0885400BE6FFE /* Assets.xcassets */,
 				FAF7ACAA1FD0885400BE6FFE /* LaunchScreen.storyboard */,
 				FAF7ACAD1FD0885400BE6FFE /* Info.plist */,
+				FAF7ACCF1FD08D9000BE6FFE /* MyToDo.swift */,
 			);
 			path = MyToDo;
 			sourceTree = "<group>";
@@ -259,6 +262,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FAF7ACD01FD08D9000BE6FFE /* MyToDo.swift in Sources */,
 				FAF7ACA41FD0885400BE6FFE /* ViewController.swift in Sources */,
 				FAF7ACA21FD0885400BE6FFE /* AppDelegate.swift in Sources */,
 			);
